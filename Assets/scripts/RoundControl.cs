@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using step.cs;
+
 
 public class RoundControl : MonoBehaviour
 {
@@ -12,10 +12,10 @@ public class RoundControl : MonoBehaviour
     public GameObject desPlayer1;
     public GameObject desPlayer2;
 
-    private boolean sub1ready = false;
-    private boolean sub2ready = false;
-    private boolean des1ready = false;
-    private boolean des2ready = false;
+    private bool sub1ready = false;
+    private bool sub2ready = false;
+    private bool des1ready = false;
+    private bool des2ready = false;
 
     
     // Start is called before the first frame update
@@ -24,7 +24,7 @@ public class RoundControl : MonoBehaviour
         
     }
 
-    public SetAction(GameObject player,action[] actionList)
+    public void SetAction(GameObject player)
     {
         
     }
