@@ -1,0 +1,13 @@
+current working on:
+1.fixing sub_UI abnormally shown under the water
+2.finding the best way to construct round/step/ship controler, and how they work together
+
+already done:
+1.building ship models
+2.create script for changing UI and camera
+3.build ship controler
+
+ready to do:
+1.find a better way for ship actions
+2.find a way to show water more like real
+3.how to make it a online game
